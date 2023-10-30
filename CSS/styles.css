@@ -1,7 +1,18 @@
 body {
     display: grid;
 }
-header a {
+header {
+    background-color: #413f3f;
+    height: 120%;
+
+}
+.home-page {
+    display: block;
+    color: #FFF;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: x-large;
+    text-align: center;
     text-decoration: none;
 }
 
@@ -16,8 +27,13 @@ nav ul {
 }
 
 nav ul li a {
+    color: #FFF;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    font-size: large;
     text-decoration: none;
 }
+
 
 footer ul {
     display: flex;

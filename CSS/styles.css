@@ -1,0 +1,30 @@
+body {
+    display: grid;
+}
+header a {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    column-gap: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+    column-gap: 30px;
+}
+
+footer ul li a {
+    text-decoration: none;
+}

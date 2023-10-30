@@ -34,7 +34,9 @@ nav ul li a {
     text-decoration: none;
 }
 
-
+.flashing-preference {
+    margin-top: 20px;
+}
 footer ul {
     display: flex;
     list-style: none;

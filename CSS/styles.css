@@ -1,7 +1,7 @@
 body {
     display: grid;
 }
-header {
+.main-header {
     background-color: #413f3f;
     height: 120%;
 
@@ -36,6 +36,21 @@ nav ul li a {
 
 .flashing-preference {
     margin-top: 20px;
+}
+
+article {
+    margin:  20px;
+}
+.author-info {
+    list-style: none;
+}
+
+img {
+    width: 30%;
+}
+
+footer {
+    background-color: #413f3f;
 }
 footer ul {
     display: flex;

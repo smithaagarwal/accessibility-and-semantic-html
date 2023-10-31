@@ -1,63 +1,77 @@
 body {
-    display: grid;
+  display: grid;
 }
 .main-header {
-    background-color: #413f3f;
-    height: 120%;
-
+  background-color: #413f3f;
+  height: 120%;
 }
 .home-page {
-    display: block;
-    color: #FFF;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bolder;
-    font-size: x-large;
-    text-align: center;
-    text-decoration: none;
+  display: block;
+  color: #fff;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bolder;
+  font-size: x-large;
+  text-align: center;
+  text-decoration: none;
 }
 
 nav {
-    display: flex;
+  display: flex;
 }
 
 nav ul {
-    display: flex;
-    list-style: none;
-    column-gap: 30px;
+  display: flex;
+  list-style: none;
+  column-gap: 30px;
 }
 
 nav ul li a {
-    color: #FFF;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: lighter;
-    font-size: large;
-    text-decoration: none;
+  color: #fff;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: lighter;
+  font-size: large;
+  text-decoration: none;
 }
 
 .flashing-preference {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 article {
-    margin:  20px;
+  margin: 20px;
 }
 .author-info {
-    list-style: none;
+  list-style: none;
 }
 
 img {
-    width: 30%;
+  width: 30%;
 }
 
 footer {
-    background-color: #413f3f;
+  background-color: #413f3f;
 }
 footer ul {
-    display: flex;
-    list-style: none;
-    column-gap: 30px;
+  display: flex;
+  list-style: none;
+  column-gap: 30px;
 }
 
 footer ul li a {
-    text-decoration: none;
+  text-decoration: none;
+}
+
+.blink {
+  animation: blink 3s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+    color: red;
+  }
+  100% {
+    opacity: 0;
+    color: blue;
+  }
 }

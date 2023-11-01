@@ -1,7 +1,11 @@
 body {
   display: grid;
+  grid-template-columns: 70% 30%;
+  gap: 10px;
 }
 .main-header {
+    grid-column-start: 1;
+    grid-column-end: 3;
   background-color: #413f3f;
   height: 120%;
 }
@@ -34,10 +38,14 @@ nav ul li a {
 }
 
 .flashing-preference {
+    grid-row-start: 2;
+    grid-row-end: 3;
   margin-top: 20px;
 }
 
 article {
+    grid-row-start: 3;
+    grid-row-end: 4;
   margin: 20px;
 }
 .author-info {
@@ -49,6 +57,10 @@ img {
 }
 
 footer {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 3;
   background-color: #413f3f;
 }
 footer ul {

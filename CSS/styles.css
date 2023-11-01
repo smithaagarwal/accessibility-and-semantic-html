@@ -58,8 +58,11 @@ footer ul {
 }
 
 footer ul li a {
-  text-decoration: none;
-}
+    color: #fff;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: lighter;
+    font-size: large;
+    text-decoration: none;}
 
 .blink {
   animation: blink 3s infinite;
